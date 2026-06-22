@@ -109,8 +109,12 @@ Arm A and Arm B.***
 
 The implementation and the executed end-to-end notebook are available in
 [this repository](https://github.com/tnguyen2907/nemotron-reasoning-challenge-prefix-surgery).
-I used Claude Code and Codex extensively to
-implement, inspect, and test the code.
+The original experiment adapters are also available on Kaggle Models:
+[Arm A](https://www.kaggle.com/models/tdnguyen29/nemotron-prefix-surgery/pyTorch/arm-a-prefix-surgery)
+and
+[Arm B](https://www.kaggle.com/models/tdnguyen29/nemotron-prefix-surgery/pyTorch/arm-b-full-trace).
+I used Claude Code and Codex extensively to implement, inspect, and test the
+code.
 
 ## Details of the Approach
 
