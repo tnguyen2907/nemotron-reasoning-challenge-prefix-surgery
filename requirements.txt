@@ -1,0 +1,5 @@
+-e .
+jupyterlab>=4.4,<5
+kagglehub>=0.3,<1
+modal>=1.4,<2
+nbformat>=5.10,<6

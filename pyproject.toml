@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nemotron-prefix-surgery"
+version = "0.1.0"
+description = "Prefix surgery: repairing a model's own chain-of-thought traces for LoRA fine-tuning, demonstrated on the NVIDIA Nemotron reasoning challenge."
+readme = "README.md"
+requires-python = ">=3.11"
+# The reusable CPU library is pure standard-library Python. GPU dependencies are
+# installed in the Modal image defined by the notebook.
+dependencies = []
+
+[project.optional-dependencies]
+# Local orchestration for the reproduction notebook.
+notebook = [
+  "jupyterlab>=4.4",
+  "kagglehub>=0.3",
+  "modal>=1.4,<2",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["nemotron_reasoning*"]

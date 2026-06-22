@@ -1,0 +1,47 @@
+# Competition data and competition-derived artifacts
+/data/
+/runs/
+/outputs/
+/submissions/
+/distill/
+/models/
+/hf-cache/
+/_repro_work/
+*.csv
+*.jsonl
+*.parquet
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.tar
+*.tar.gz
+
+# Credentials and local environments
+.env
+.env.*
+!.env.example
+kaggle.json
+.kaggle/
+.modal.toml
+wandb/
+mlruns/
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
