@@ -108,7 +108,8 @@ competition, because it did not.
 Arm A and Arm B.***
 
 The implementation and the executed end-to-end notebook are available in
-[this repository](README.md). I used Claude Code and Codex extensively to
+[this repository](https://github.com/tnguyen2907/nemotron-reasoning-challenge-prefix-surgery).
+I used Claude Code and Codex extensively to
 implement, inspect, and test the code.
 
 ## Details of the Approach
